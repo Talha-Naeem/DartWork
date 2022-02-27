@@ -1,0 +1,24 @@
+ void main()               
+ {
+   
+   num maths=82;
+   num computer=87;
+   num biology=95;
+   num physics=89;
+   num ai=76;
+   
+   num obtainmarks=maths+computer+physics+ai;
+  
+   int totalmarks=500;
+  
+   num percentage=((obtainmarks/totalmarks)*100);
+   
+   print("All Subjects Marks");
+   print("Maths $maths Computer $computer Physics $physics AI $ai");
+   print("Total Marks $totalmarks");
+   print("Obtained Marks $obtainmarks");
+   print ("Your percentage is $percentage% ");
+
+   
+                  
+ }
