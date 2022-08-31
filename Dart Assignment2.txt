@@ -1,0 +1,34 @@
+void main(){
+   num maths=82;
+   num computer=87;
+   num biology=95;
+   num physics=89;
+   num ai=76;
+   
+  num obtainmarks=maths+computer+physics+ai;
+  
+   int totalmarks=500;
+  
+   num percentage=((obtainmarks/totalmarks)*100);   
+   
+   print("All Subjects Marks");
+   print("Maths: $maths Computer: $computer Physics: $physics AI: $ai");
+   print("Total Marks $totalmarks");
+   print("Obtained Marks $obtainmarks");
+   print ("Your percentage is $percentage% ");
+   
+  if (obtainmarks >= 480){
+    print("A+ Grade");}
+  else if (obtainmarks >= 480 || obtainmarks >= 450){
+    print("A Grade");}
+  else if (obtainmarks >= 450 || obtainmarks >= 400){
+    print("B+ Grade");}
+  else if (obtainmarks >= 400 || obtainmarks >= 350){
+    print("B Grade");}
+  else if (obtainmarks >= 350 || obtainmarks >= 300){
+    print("C+ Grade");}
+  else if (obtainmarks >= 300 || obtainmarks >= 250){
+    print("C Grade");}
+  else if(obtainmarks < 249){
+    print("Fail");}
+}
